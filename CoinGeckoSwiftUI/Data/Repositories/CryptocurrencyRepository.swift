@@ -45,11 +45,3 @@ class CryptocurrencyRepository: GlobalCryptoListRepositoryType {
         return .success(cryptocurrency)
     }
 }
-
-/*
- //        const url = "https://api.coingecko.com/api/v3/global"
- 
- //        const url = "https://api.coingecko.com/api/v3/coins/list"
- 
- //    const url = "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=bitcoin%2Cethereum&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true"
- */

@@ -16,7 +16,7 @@ class GetGlobalCryptoList {
     
     
     func execute() async -> Result<[Cryptocurrency], CryptocurrencyDomainError> {
-        let result = await repository.GetGlobalCryptoList()
+        let result = await repository.getGlobalCryptoList()
         
         guard let cryptoList = try? result.get() else {
             guard case .failure(let error) = result else {
